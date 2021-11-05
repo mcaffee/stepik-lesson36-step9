@@ -47,4 +47,5 @@ def test_page(browser, language):
     )
     actual_text = add_btn.text
 
+    # then
     assert actual_text == expected_texts[language]
